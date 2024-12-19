@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    app:layout_constraintTop_toTopOf="parent"
+    android:padding="18dp"
+    android:background="?attr/selectableItemBackground">
+
+    <TextView
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:id="@+id/itemTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Название"
+        android:background="@drawable/bg_item"
+        android:textSize="26sp"
+        android:padding="16dp" />
+
+</LinearLayout>
